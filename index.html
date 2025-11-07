@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Likhith Kasaragadda • Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Likhith Kasaragadda — Business Operations Executive in EdTech with product, client onboarding, and analytics experience." />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <a class="brand" href="#home">LK</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a class="btn small" href="Likhith_Kasaragadda_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Business Operations • Product • EdTech</p>
+      <h1>Hi, I’m <span class="accent">Likhith Kasaragadda</span>.</h1>
+      <p class="sub">Dynamic and goal-oriented Business Operations Executive with experience in client onboarding, requirement analysis, product decisions, and stakeholder communication.</p>
+
+      <div class="cta">
+        <a class="btn primary" href="Likhith_Kasaragadda_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+
+      <div class="meta">
+        <a href="mailto:klikith972@gmail.com">klikith972@gmail.com</a>
+        <span>•</span>
+        <a href="tel:+919494530320">+91 94945 30320</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/likhith-kasaragadda" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-shape" aria-hidden="true"></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>
+      I work at the intersection of operations, product, and analytics—helping colleges adopt CampX ERP
+      (UMS, Payments, Exams, Commute, Hostel, HRMS). I focus on feasibility, developer bandwidth,
+      and business value to prioritize the right improvements and ensure seamless onboarding.
+    </p>
+    <ul class="highlights">
+      <li>End-to-end client onboarding & product demos</li>
+      <li>Requirement gathering & functional analysis</li>
+      <li>Prioritization by product value & revenue impact</li>
+      <li>Strong client relationships to drive adoption</li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+
+    <div class="cards">
+      <article class="card">
+        <header class="card-hdr">
+          <h3>Business Operations Executive</h3>
+          <span class="muted">CampX Edu Tech Pvt. Ltd. • Hyderabad</span>
+          <span class="muted">Feb 2024 – Present</span>
+        </header>
+        <ul class="card-list">
+          <li>Led onboarding to CampX ERP: UMS, Payments, Exams, Commute, Hostel, HRMS.</li>
+          <li>Owned client requirement sessions, functional analysis, and sprint alignment.</li>
+          <li>Evaluated feasibility, dev bandwidth, and value-add before routing to development.</li>
+          <li>Delivered product demos and maintained adoption/retention metrics.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="grid">
+      <article class="tile">
+        <h3>API Testing</h3>
+        <p>Tested open-source APIs with Postman to validate functional reliability and edge cases.</p>
+        <span class="tags">Postman • APIs</span>
+      </article>
+
+      <article class="tile">
+        <h3>Jar Deployment on AWS</h3>
+        <p>Built and deployed a Maven JAR on AWS from a given Java application with CI-like steps.</p>
+        <span class="tags">Java • Maven • AWS</span>
+      </article>
+
+      <article class="tile">
+        <h3>Smart Irrigation (IoT)</h3>
+        <p>NodeMCU + Blynk solution to automate watering decisions using soil moisture readings.</p>
+        <span class="tags">IoT • NodeMCU • Blynk</span>
+      </article>
+
+      <article class="tile">
+        <h3>Smart Parking</h3>
+        <p>Arduino-based automated entry and real-time slot tracking with sensors and indicators.</p>
+        <span class="tags">Arduino • Sensors</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="chips">
+      <span>SQL</span><span>Python</span><span>Java</span><span>C</span>
+      <span>APIs</span><span>XML/JSON</span><span>Postman</span><span>Git</span>
+      <span>AWS</span><span>Power BI</span><span>Tableau</span><span>VS Code</span>
+      <span>Data Analysis</span><span>DevOps (Basics)</span><span>Linux</span>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Open to roles across Product/Operations/Implementation. Let’s talk.</p>
+    <div class="contact-actions">
+      <a class="btn primary" href="mailto:klikith972@gmail.com">Email Me</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/likhith-kasaragadda" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="tel:+919494530320">Call</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="y"></span> Likhith Kasaragadda • Made with HTML & CSS</p>
+  </footer>
+
+  <!-- tiny inline script only for year text (optional) -->
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
